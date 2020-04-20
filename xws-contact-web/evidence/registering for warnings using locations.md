@@ -2,7 +2,7 @@
 
 ## Hypothesis
 
-By allowing users the ability to sign up to wider (known) geographical locations, they are enable to better understand the live flood impact in an area they are interested in.
+By allowing users to sign up to wider (known) geographical locations, they are enable to better understand the live flood impact in an area they are interested in.
 
 ## Method
 
