@@ -31,8 +31,7 @@ London
 
 
 ## Supporting data
-* TBC
-* 
+* [Results of data analysis (Excel)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/evidence/registering%20for%20warnings%20using%20locations%20data.xlsx?raw=true) 
 
 ### Data sources
 
