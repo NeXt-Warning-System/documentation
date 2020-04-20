@@ -8,7 +8,7 @@ By allowing users the ability to sign up to wider (known) geographical areas, th
 
 Locations are defined by "bounding boxes" around known populated places in England. These are sourced from the OS Open Names data provided by the Ordnance Survey. Using this data ensures consistency with the property data set (AddressBase Premium) also provided by the OS. We have applied the following filters to the Open Names data; country = England, Type = populatedPlace
 
-Bounding boxes are creates using the MBR_XMIN, MBR_YMIN, MBR_XMAX and MBR_YMAX co-ordinates. Resultant bounding boxes have been spatially joined to national Flood Warning and Flood Alert shapefiles for England. The number of active Target Areas that overlap each bounding box have been calculated. 
+Bounding boxes are creates using the MBR_XMIN, MBR_YMIN, MBR_XMAX and MBR_YMAX co-ordinates. Resultant bounding boxes have been spatially joined to national Flood Warning and Flood Alert shapefiles for England. 
 
 Historic flood warning messages have been used to ascertain the number of messages a user would be likely be sent in a given year for each bounding box. We have applied the following filters to the historic flood warning messages; Messagetype matches Flood Alert or Update Flood Alert, Flood Warning or Update Flood Warning, Severe Flood Warning or Update Severe Flood Warning; Dateissued is greater than 2016
 
