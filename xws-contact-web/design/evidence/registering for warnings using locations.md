@@ -8,18 +8,21 @@ By allowing users the ability to sign up to wider (known) geographical areas, th
 
 Locations are defined by "bounding boxes" around known populated places in England. These are sourced from the OS Open Names data prvided by the Ordnance Survey. Using this data ensures consistancy with the property data set (AddressBase Premium) also provided by the OS. We have applied the following filters to the Open Names data; country = England, Type = populatedPlace
 
-Bounding boxes are creates using the MBR_XMIN, MBR_YMIN, MBR_XMAX and MBR_YMAX co-ordindates. Resultant bounding boxes have been spaitally joined to national Flood Warning and Flood Alert shapefiles for England. The number of active Target Areas that overlap each bounding box have been calculated. Histroic flood warning system from FWS has been used to ascertain the number of messages a usr would be likely to get in a given year for each bounding box.
+Bounding boxes are creates using the MBR_XMIN, MBR_YMIN, MBR_XMAX and MBR_YMAX co-ordindates. Resultant bounding boxes have been spaitally joined to national Flood Warning and Flood Alert shapefiles for England. The number of active Target Areas that overlap each bounding box have been calculated. 
+
+Histroic flood warning messages from FWS has been used to ascertain the number of messages a user would be likely be sent in a given year for each bounding box. We have applied the following filters to the hitsoric flood warning messages; Messagetype matches Flood Alert or Update Flood Alert, Flood Warning or Update Flood Warning, Severe Flood Warning or Update Severe Flood Warning
 
 ## Results
 
 
+## Suggestion
 
+## Supporting data
+* TBC
 
 ### Data sources
 
 * [OS Open Names](https://www.ordnancesurvey.co.uk/business-government/products/open-map-names)
-
-## Suggestion
-
-
-
+* [Flood Warning areas in England](https://data.gov.uk/dataset/0d901c4a-6e1a-4f9a-9408-73e0c1f49dd3/flood-warning-areas)
+* [Flood alert areas in England](https://data.gov.uk/dataset/7749e0a6-08fb-4ad8-8232-4e41da74a248/flood-alert-areas)
+* [Historic flood warnings](https://data.gov.uk/dataset/d4fb2591-f4dd-4e7f-9aaf-49af94437b36/historic-flood-warnings)
