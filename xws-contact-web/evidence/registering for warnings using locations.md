@@ -18,11 +18,20 @@ Any Target Areas that have been deactivate will not be matched to overlapping bo
 
 ## Results
 
-Data for the years 2017, 2018 and 2019 were analysed (Update messages were introduced in 2017). The headline findings were:
+Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed (Update messages were introduced in 2017). The headline findings were:
 
-* London was the most frequently issued to location each year (peaking at 241 total messages in 2016 where 208 Flood Alerts, 19 Update Flood Alerts and 14 Flood Warnings were issued) - this is the largest bounding box in the country
-* In some years, even small locations (with small bounding boxes) receive many messages - for example, Flamborough Village (YO15) which is frequently in the top 5 most issued areas
-* Flood Alert and Update Flood Alert make up around 75% of all the messages issued between 2017-2019 inclusive
+* London was the most frequently issued to location each year - this is the largest bounding box in the country In 2019 London messages issued were:
+  * 208 Flood Alerts
+  * 19 Update Flood Alerts
+  * 179 Remove Flood Alerts
+  * 14 Flood Warnings
+  * 14 Remove Flood Warnings
+* In some years, even small locations (with small bounding boxes) receive many messages - for example, Flamborough Village (YO15) in 2017 and 2018
+* Flood Alert and Update Flood Alert make up around 42% of all the messages issued between 2017-04/2020 inclusive
+* Remove messages make up around 44% of messages issued between 2017-04/2020 inclusive
+* If a user had only registered to receive Flood Warning and Severe Flood Warning messages (the default setting) between 2017 and 2020 for a single area, then the most amount of messages a user would have received in the period would have been for Todmorden Town, where we issued:
+  * 62 Flood Warnings
+  * 3 Update Flood Warnings
 
 ## Benefits
 
@@ -41,8 +50,6 @@ Data for the years 2017, 2018 and 2019 were analysed (Update messages were intro
 ## Recommendation
 
 Using this data in the registration process would give an idea to the user on the number of messages they could potentially receive. This is particular useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
-
-Further work also needs to be done to understand the impact of "Remove" messages on this approach and how that impacts the number of messages a user may receive.
 
 ## Supporting data
 
