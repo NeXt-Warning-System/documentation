@@ -35,7 +35,7 @@ Data for the years 2017, 2018 and 2019 were analysed (Update messages were intro
 
 * Moving to smaller flood warning areas in the future may increase the number of messages being sent to users registered to large geographical locations
 * Some locations are not offered a flood warning service so we need to ensure that information is clearly presented to a user when they register
-* We have no control over the size of the bounding boxes - these are provided using OS data. If there is an error in the OS data this could propogate through our registration process
+* We have no control over the size of the bounding boxes - these are provided using OS data. If there is an error in the OS data this could propagate through our registration process
 * We would need to monitor if there are changes to the bounding box data provided by the OS. If they change the data and we choose to update our data in the system, we need to understand the impacts that the change of bounding box size would have on user registered to those areas
 
 ## Recommendation
