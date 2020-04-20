@@ -53,7 +53,7 @@ Using this data in the registration process would give an idea to the user on th
 
 ## Supporting data
 
-* [Results of data analysis (Excel)](xws-contact-web/evidence/data/BB to TA Union remove.xlsx) 
+* [Results of data analysis (Excel)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/evidence/data/BB%20to%20TA%20Union%20remove.xlsx?raw=true)
 
 ### Data sources
 
