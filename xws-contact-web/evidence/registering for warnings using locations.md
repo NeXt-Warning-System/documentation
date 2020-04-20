@@ -1,8 +1,8 @@
 # xws-contact-web: registering for warnings using locations
 
-## Use case hypothesis
+## Hypothesis
 
-By allowing users the ability to sign up to wider (known) geographical areas, they are enable to better understand the live flood impact in an area they are interested in.
+By allowing users the ability to sign up to wider (known) geographical locations, they are enable to better understand the live flood impact in an area they are interested in.
 
 ## Method
 
@@ -18,22 +18,31 @@ Any Target Areas that have been deactivate will not be matched to overlapping bo
 
 ## Results
 
-Data for the years 2017, 2018 and 2019 were analysed (Updat emessages were inttroduced in 2017). The headline findings were:
+Data for the years 2017, 2018 and 2019 were analysed (Update messages were introduced in 2017). The headline findings were:
 
 * London was the most frequently issued to location each year (peaking at 241 total messages in 2016 where 208 Flood Alerts, 19 Update Flood Alerts and 14 Flood Warnings were issued) - this is the largest bounding box in the country
-* In some years, even small locations (with small bounding boxes) receive many messags - for example, Flamborough Village (YO15) which is freqnely in the top 5 most issued areas
-* Flood Alert and Update Flood Alert make up aarond 70% of all the messages issued between 
-
+* In some years, even small locations (with small bounding boxes) receive many messages - for example, Flamborough Village (YO15) which is frequently in the top 5 most issued areas
+* Flood Alert and Update Flood Alert make up around 75% of all the messages issued between 2017-2019 inclusive
 
 ## Benefits
 
-* It’s simple – most users are likely to know the area they want to know about. During contact first user testing, a majority of users selected a location over a specific property
-* It's futureproof – underlying changes to any TAs are automatically picked up. If we add a new TA, they automatically recieve any flood warnings sent to it. If we remove a TA, they no longer recieve that message. There is no maintenance for the user or for Organisation.
-* It's quick – users can sign up for one location and that’s it. They can of course sign up for multiple locations if they wish
+* This approach is simple for the user – most users are likely to know the area they want to know about. During contact first user testing, a majority of users selected a location over a specific property
+* This approach is futureproof – underlying changes to any TAs are automatically picked up. If we add a new TA, they automatically receive any flood warnings sent to it. If we remove a TA, they no longer receive that message. There is no maintenance for the user or for Organisation.
+* This approach is  quick for the user - they can sign up for one location and that’s it. They can of course sign up for multiple locations if they wish
+* If a user choses to register a property that cannot currently receive a flood warning service, we can match the address to available wider locations and suggest they sign up for one those areas instead
 
-## Reommendation
+## Issues
 
-Using tihs data in the registarion porcess would give an idea to the user on the number of messages they could potentially receive. This is partiocualr useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
+* Moving to smaller flood warning areas in the future may increase the number of messages being sent to users registered to large geographical locations
+* Some locations are not offered a flood warning service so we need to ensure that information is clearly presented to a user when they register
+* We have no control over the size of the bounding boxes - these are provided using OS data. If there is an error in the OS data this could propogate through our registration process
+* We would need to monitor if there are changes to the bounding box data provided by the OS. If they change the data and we choose to update our data in the system, we need to understand the impacts that the change of bounding box size would have on user registered to those areas
+
+## Recommendation
+
+Using this data in the registration process would give an idea to the user on the number of messages they could potentially receive. This is particular useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
+
+Further work also needs to be done to understand the impact of "Remove" messages on this approach and how that impacts the number of messages a user may receive.
 
 ## Supporting data
 
