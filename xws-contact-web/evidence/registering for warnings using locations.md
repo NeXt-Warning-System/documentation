@@ -18,20 +18,26 @@ Any Target Areas that have been deactivate will not be matched to overlapping bo
 
 ## Results
 
-London
+Data for the years 2017, 2018 and 2019 were analysed (Updat emessages were inttroduced in 2017). The headline findings were:
+
+* London was the most frequently issued to location each year (peaking at 241 total messages in 2016 where 208 Flood Alerts, 19 Update Flood Alerts and 14 Flood Warnings were issued) - this is the largest bounding box in the country
+* In some years, even small locations (with small bounding boxes) receive many messags - for example, Flamborough Village (YO15) which is freqnely in the top 5 most issued areas
+* Flood Alert and Update Flood Alert make up aarond 70% of all the messages issued between 
 
 
-## Suggestion
+## Benefits
 
+* It’s simple – most users are likely to know the area they want to know about. During contact first user testing, a majority of users selected a location over a specific property
+* It's futureproof – underlying changes to any TAs are automatically picked up. If we add a new TA, they automatically recieve any flood warnings sent to it. If we remove a TA, they no longer recieve that message. There is no maintenance for the user or for Organisation.
+* It's quick – users can sign up for one location and that’s it. They can of course sign up for multiple locations if they wish
 
+## Reommendation
 
-* It’s simple – most people are likely to know the area they want to know about. During contact first user testing, almost all users selected a location over a specific property
-* It's future proof – underlying changes to any TAs are automatically picked up. If we add a new TA, they get it, if we remove one it disappears. No maintenance for the user or for us.
-* It's quick – they sign up for one location and that’s it. No more adding TAs one by one as Area of Interests (AOIs). They can of course sign up for multiple locations if they wish
-
+Using tihs data in the registarion porcess would give an idea to the user on the number of messages they could potentially receive. This is partiocualr useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
 
 ## Supporting data
-* [Results of data analysis (Excel)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/evidence/registering%20for%20warnings%20using%20locations%20data.xlsx?raw=true) 
+
+* [Results of data analysis (Excel)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/evidence/BB%20to%20TA%20Union.xlsx?raw=true) 
 
 ### Data sources
 
