@@ -10,20 +10,29 @@ Locations are defined by "bounding boxes" around known populated places in Engla
 
 Bounding boxes are creates using the MBR_XMIN, MBR_YMIN, MBR_XMAX and MBR_YMAX co-ordinates. Resultant bounding boxes have been spatially joined to national Flood Warning and Flood Alert shapefiles for England. 
 
-Historic flood warning messages have been used to ascertain the number of messages a user would be likely be sent in a given year for each bounding box. We have applied the following filters to the historic flood warning messages; Messagetype matches Flood Alert or Update Flood Alert, Flood Warning or Update Flood Warning, Severe Flood Warning or Update Severe Flood Warning; Dateissued is greater than 2016
+Historic flood warning messages have been used to ascertain the number of messages a user would be likely be sent in a given year for each bounding box. We have applied the following filters to the historic flood warning messages; Messagetype matches Flood Alert or Update Flood Alert, Flood Warning or Update Flood Warning, Severe Flood Warning or Update Severe Flood Warning
 
-### Limitations
+### Known limitations
 
 Any Target Areas that have been deactivate will not be matched to overlapping bounding boxes and therefore not appear in the results - this is due to the fact that it would be too laborious to accurately recreate this data. This method is designed to give a rough approximation of the number of messages a user may get if signing up to a location for flood warnings.
 
 ## Results
 
+London
 
 
 ## Suggestion
 
+
+
+* It’s simple – most people are likely to know the area they want to know about. During contact first user testing, almost all users selected a location over a specific property
+* It's future proof – underlying changes to any TAs are automatically picked up. If we add a new TA, they get it, if we remove one it disappears. No maintenance for the user or for us.
+* It's quick – they sign up for one location and that’s it. No more adding TAs one by one as Area of Interests (AOIs). They can of course sign up for multiple locations if they wish
+
+
 ## Supporting data
 * TBC
+* 
 
 ### Data sources
 
