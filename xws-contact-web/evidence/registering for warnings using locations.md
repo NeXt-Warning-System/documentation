@@ -48,10 +48,13 @@ Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed (Upda
 * Some locations are not offered a flood warning service so we need to ensure that information is clearly presented to a user when they register
 * We have no control over the size of the bounding boxes - these are provided using OS data. If there is an error in the OS data this could propagate through our registration process
 * We would need to monitor if there are changes to the bounding box data provided by the OS. If they change the data and we choose to update our data in the system, we need to understand the impacts that the change of bounding box size would have on user registered to those areas
+* We need to understand the impact of users registering to bourdning boxes on the England/Wales border, especially if NRW choose not to use XWS in the future. There is a risk that a user signing up to a border location may not receive the full picture if NRW and EA use seperate systems
 
-## Recommendation
+## Recommendations
 
-Using this data in the registration process would give an idea to the user on the number of messages they could potentially receive. This is particular useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
+Using this data in the registration process would give the user an accurate number of messages they could potentially receive by signing up to a wider location. This is particular useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
+
+We need to ensure that we monitor changes to the underlying OS Names bounding box data.
 
 ## Supporting data
 
