@@ -19,11 +19,11 @@
 
 | Name            | Prototype             | Description  |
 | -------------   | -------------         | ---          |
-| [xws-contact-api](https://github.com/DigiworxLtd/XWS/tree/master/xws-contact-api) | Contact registration  | The API that is used in the xws-contact-web page. It allows Contact(s) to be linked with Location(s) an controls what optional messages are associated with each location |
-| [xws-contact-web](https://github.com/DigiworxLtd/XWS/tree/master/xws-contact-web) | Contact registration  | This is the GDS style webpage used by Users to register, maintain and cancel their Contact from the service |
-| [xws-message-web](https://github.com/DigiworxLtd/XWS/tree/master/xws-message-web) | Message sending       | The internal GDS style webpage interface for selecting the Message, TargetArea, InfoAdvice and InfoDetail |
-| [xws-message-api](https://github.com/DigiworxLtd/XWS/tree/master/xws-message-api) | Message sending       | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
-| [xws-core-engine](https://github.com/DigiworxLtd/XWS/tree/master/xws-core-engine) | Core engine           | This is the code that links the Message to the TargetArea(s) to the Location to the Contact to calculate who should receive the message |
+| [xws-contact-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-contact-api) | Contact registration  | The API that is used in the xws-contact-web page. It allows Contact(s) to be linked with Location(s) an controls what optional messages are associated with each location |
+| [xws-contact-web](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-contact-web) | Contact registration  | This is the GDS style webpage used by Users to register, maintain and cancel their Contact from the service |
+| [xws-message-web](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-web) | Message sending       | The internal GDS style webpage interface for selecting the Message, TargetArea, InfoAdvice and InfoDetail |
+| [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api) | Message sending       | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
+| [xws-core-engine](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-core-engine) | Core engine           | This is the code that links the Message to the TargetArea(s) to the Location to the Contact to calculate who should receive the message |
 
 
 ### Contact
