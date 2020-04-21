@@ -18,6 +18,8 @@
 * Single channel (text)
 * UK telephone numbers only
 * English UI only
+* English language choice only
+
 
 
 ## Constraints
