@@ -59,7 +59,7 @@ We need to ensure that we monitor changes to the underlying OS Names bounding bo
 ## Supporting data
 
 * [Results of data analysis (Excel)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/evidence/data/BB%20to%20TA%20Union%20remove.xlsx?raw=true)
-* [Boudning box extents (Shapefile)(https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/research/data/BB%20extents%20in%20Engalnd.zip?raw=true)
+* [Bounding box extents (Shapefile)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/research/data/BB%20extents%20in%20Engalnd.zip?raw=true)
 
 ### Data sources
 
