@@ -13,7 +13,6 @@
 
 ## Description of work
 
-![xws-contact-web-steps](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/design/Contact%20first%20alpha%20v2.png)
 
 
 ### MVP
