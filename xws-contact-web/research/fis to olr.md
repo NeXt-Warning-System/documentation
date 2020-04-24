@@ -34,6 +34,4 @@ TBC
 
 ### Data sources
 
-* [OS Open Names](https://www.ordnancesurvey.co.uk/business-government/products/open-map-names)
-* [Flood Warning areas in England](https://data.gov.uk/dataset/0d901c4a-6e1a-4f9a-9408-73e0c1f49dd3/flood-warning-areas)
-* [Flood alert areas in England](https://data.gov.uk/dataset/7749e0a6-08fb-4ad8-8232-4e41da74a248/flood-alert-areas)
+* 
