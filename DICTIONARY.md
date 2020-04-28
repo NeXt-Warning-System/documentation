@@ -13,7 +13,7 @@
 | Certainty          | The certainty associated with the Message - used in CAP |
 | Contact            | The email address, telephone number or http endpoint used to receive a Message |
 | ContactCancel      | Denotes reason for Contact cancellation | 
-| ContactChannels    | The channel type for the Contact i.e. email, text, telephone, XML |
+| ContactChannel     | The channel type for the Contact i.e. email, text, telephone, XML |
 | ContactLanguage    | The language associated with each Contact. Must follow [ISO 639-1:2002](https://www.iso.org/standard/22109.html) i.e. en |
 | ContactReg         | Denotes meyhod of Contact registation |
 | ContactStatus      | Denotes if Contact is active or removed |
