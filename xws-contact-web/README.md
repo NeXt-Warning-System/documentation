@@ -8,7 +8,6 @@
 * Remove duplicate accounts carried over from the incumbant system
 * All users to register to receive warning information for "places" such as villages, towns and cities
 * Allow our opt-out users to cancel or upgrade their registations
-* Use the minimum required data to provide a warning service to our users
 * Ultimately, create a simpler, quicker and faster registation, maintenance and cancellation process for our users
 
 ## Description of work
@@ -18,8 +17,9 @@
 
 ### MVP
 
-* Single channel (text)
+* Single channel (text) initially
 * UK telephone numbers only
 * English UI only
 * English language choice only
+* Use the minimum required data to provide a warning service to our users
 
