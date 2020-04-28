@@ -7,35 +7,33 @@ The below is an first draft of the API attributes for the XWS Message API. The M
 ~~~~
 -> MessageID - a randomly assigned unique id
 -> TargetAreaCode - the TargetArea that this message refers to
--> Hazard - used in CAP
+-> CAP
+  -> EventCategory
+  -> EventType
   -> Severity
   -> Urgency
   -> Certainty
   -> responseType
--> RealTimeInfo
--> RealTimeAdvice
--> MessageLanguage
--> MessageStatus
--> MessageType
--> Org
-  -> OrgName
+  -> MessageStatus
+  -> Org
   -> OrgEmail
   -> OrgURL
-  -> 
+  -> OrgTel
+  -> OrgURL
+-> Info
+  -> InfoHeadline
+  -> InfoPublic
+  -> InfoPartner
+  -> AdvicePublic
+  -> AdvicePartner
+-> MessageLanguage
+-> MessageType
 
 ~~~~
 
 Example
 
 ~~~~
--> 8N6EJEBF
--> 07123456789
--> ContactChannel
-  -> text
-  -> telephone 
--> OptionalMessages
-  -> remove
--> en-GB
--> active
--> Public
+
+
 ~~~~
