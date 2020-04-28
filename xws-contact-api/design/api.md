@@ -24,3 +24,18 @@ Possible additions
 ~~~~
 -> hazard - denotes the hazards Contact is interested in and therefore available messages
 ~~~~
+
+Example
+
+~~~~
+-> 8N6EJEBF
+-> 07123456789
+-> ContactChannel
+  -> text
+  -> telephone 
+-> OptionalMessages
+  -> remove
+-> en-GB
+-> active
+-> Public
+~~~~
