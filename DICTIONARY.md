@@ -39,7 +39,7 @@
 | OrgEmail           | Public facing email for the organsiation using the service - used in CAP. Linked to Org |
 | OrgTeam            | The team within an Org. Links to TargetArea, Org |
 | OrgTeamEmail       | Public facing email address associated with an OrgTeam. Links to OrgTeam |
-| OrgTeeamTel        | Public facing telpehone number associated with an OrgTeam. Links to OrgTeam |
+| OrgTeamTel        | Public facing telpehone number associated with an OrgTeam. Links to OrgTeam |
 | OrgTel             | Public facing telephone number for the organsiation using the service - used in CAP. Linked to Org|
 | OrgURL             | Public facing URL for the organsiation using the service - used in CAP. Linked to Org |
 | Permissions        | Set of access rights that allow interaction with different parts of the service |
