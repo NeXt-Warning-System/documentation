@@ -19,6 +19,7 @@
 
 * Single channel (text) initially
 * UK telephone numbers only
+* Landline and mobile only
 * English UI only
 * English language choice only
 * Use the minimum required data to provide a warning service to our users
