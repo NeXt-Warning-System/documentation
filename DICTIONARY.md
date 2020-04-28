@@ -13,7 +13,7 @@
 | Certainty          | The certainty associated with the Message - used in CAP |
 | Contact            | The email address, telephone number or http endpoint used to receive a Message |
 | ContactCancel      | Denotes reason for Contact cancellation | 
-| ContactChannel     | The channel type for the Contact i.e. email, text, telephone, XML |
+| ContactChannels    | The channel type for the Contact i.e. email, text, telephone, XML |
 | ContactLanguage    | The language associated with each Contact. Must follow [ISO 639-1:2002](https://www.iso.org/standard/22109.html) i.e. en |
 | ContactReg         | Denotes meyhod of Contact registation |
 | ContactStatus      | Denotes if Contact is active or removed |
@@ -33,6 +33,7 @@
 | MessageStatus      | Denotes approriate handling of the Message - used in CAP e.g. Actual, Test |
 | MessageType        | The nature of the message an internal user wants to send - this can be Issue, Update or Remove |
 | MessageVariant     | A single template within a Message. Links to ContactChannel, MessageLanguage, Message |
+| OptionalMessages   | Allows user to dictate what optional messages they would like for their contact |
 | Org                | Public facing name for the organsiation using the service - used in CAP |
 | OrgEmail           | Public facing email for the organsiation using the service - used in CAP. Linked to Org |
 | OrgTeam            | The team within an Org. Links to TargetArea, Org |
