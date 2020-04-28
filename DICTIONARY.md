@@ -14,6 +14,7 @@
 | Contact            | The email address, telephone number or http endpoint used to receive a Message |
 | ContactCancel      | Denotes reason for Contact cancellation | 
 | ContactChannel     | The channel type for the Contact i.e. email, text, telephone, XML |
+| ContactID          | Unique reference for each Contact registered - used in CAP |
 | ContactLanguage    | The language associated with each Contact. Must follow [ISO 639-1:2002](https://www.iso.org/standard/22109.html) i.e. en |
 | ContactReg         | Denotes meyhod of Contact registation |
 | ContactStatus      | Denotes if Contact is active or removed |
