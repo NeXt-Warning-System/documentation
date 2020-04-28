@@ -6,7 +6,7 @@ The below is an first draft of the API attributes for the XWS Message API. The M
 
 ~~~~
 -> MessageID - a randomly assigned unique id
--> TargetAreaCode - the TargetArea that this message refers to
+-> TargetAreaCode - the TargetArea that this message refers to. Always picks active TA.
 -> CAP
   -> EventCategory
   -> EventType
@@ -28,6 +28,7 @@ The below is an first draft of the API attributes for the XWS Message API. The M
   -> AdvicePartner
 -> MessageLanguage
 -> MessageType
+
 
 ~~~~
 
