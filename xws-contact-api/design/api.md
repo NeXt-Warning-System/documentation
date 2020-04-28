@@ -39,3 +39,16 @@ Example
 -> active
 -> Public
 ~~~~
+
+Example for EDW
+
+~~~~
+-> 8N6EJEBF213123
+-> 07123456789
+-> ContactChannel
+  -> telephone 
+-> OptionalMessages
+-> en-GB
+-> active
+-> Opt-out
+~~~~
