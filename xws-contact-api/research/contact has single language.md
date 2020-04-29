@@ -27,7 +27,8 @@ After analysis we found only 63 individual contacts that are registered to multi
 
 ## Recommendations
 
-Based on the obsrved very low number of users wanting multiple languages, we suggest that only a single language is supported for each contact in XWS. We need to ensure that if the message is not sent in the supported language they choose, then we default to sending information in English.
+Based on the observed very low number of users wanting multiple languages, we suggest that only a single language is supported for each contact in XWS. We need to ensure that if the message is not sent in the supported language they choose, then we default to sending information in English.
+
 
 ## Supporting data
 
