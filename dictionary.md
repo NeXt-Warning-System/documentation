@@ -18,7 +18,7 @@
 | ContactID          | Unique reference for each Contact registered - used in CAP |
 | ContactLanguage    | The language associated with each Contact. Must follow [ISO 639-1:2002](https://www.iso.org/standard/22109.html) i.e. en |
 | ContactStatus      | Denotes if Contact is active or removed |
-| ContactUser        | Denotes user category of contact i.e. Public, Partner, Opt-out, Staff, System |
+| ContactType        | Denotes user category of contact i.e. Public, Partner, Opt-out, Staff, System |
 | EventCategory      | Denotes the category of the Event i.e. Met - used in CAP. |
 | EventType          | The event type related to Category and Message i.e. Flood - used in CAP. Linked to EventCategory, Org(s) |
 | InfoAdvice         | The incident specific advice selected by the Staff during message creation process. Links to EventType, OrgTeam, Severity, Urgency, Certainty, ResponseType, Message |
