@@ -18,9 +18,12 @@ The below is an first draft of the API attributes for the XWS Contact API.
 -> ContactLanguage - Contact can only have one language
 -> ContactStatus - denotes if contact is active or removed
 -> ContactUser - denotes user category of contact i.e. Public, Partner, Opt-out, Staff, System. Cannot by null and only one entry
--> RegisteredDate - denotes time and date contact was added to the system. SHould be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
--> RegisteredMethod - denotes methodof contact registration
--> UpdateDate - denotes time and date contact was last updated in the system. SHould be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
+-> RegisterDate - denotes time and date contact was added to the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
+-> RegisterMethod - denotes method of contact registration
+-> UpdateDate - denotes time and date contact was last updated in the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard). Can be null.
+-> UpdateReason - denotes reason for last contact update 
+-> CancelDate - denotes time and date contact was removed from the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard). Can be null.
+-> CancelReason - denotes reason for removal of contact 
 ~~~~
 
 Possible additions
