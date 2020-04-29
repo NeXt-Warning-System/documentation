@@ -31,6 +31,7 @@ The below is an first draft of the API attributes for the XWS Message API. The M
 -> Automation
   -> Full
   -> Semi
+-> Geo
 ~~~~
 
 Example
