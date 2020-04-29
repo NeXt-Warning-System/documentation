@@ -2,7 +2,7 @@
 
 ## Design
 
-The below is an first draft of the API attributes for the XWS Message API. The Message APi can be used by other systems to send messages directly from XWS, or queue them up for manual review and approval.
+The below is an first draft of the API attributes for the XWS Message API. The Message API can be used by other systems to send messages directly from XWS, or queue them up for manual review and approval.
 
 ~~~~
 -> MessageID - a randomly assigned unique id
@@ -20,20 +20,17 @@ The below is an first draft of the API attributes for the XWS Message API. The M
   -> OrgURL
   -> OrgTel
   -> OrgURL
--> Info
-  -> InfoHeadline
-  -> InfoPublic
-  -> InfoPartner
-  -> AdvicePublic
-  -> AdvicePartner
--> MessageLanguage
+  -> MessageLanguage
+    -> Info
+      -> InfoHeadline
+      -> InfoPublic
+      -> InfoPartner
+      -> AdvicePublic
+      -> AdvicePartner
 -> MessageType
 -> Automation
   -> Full
   -> Semi
-  -> None
-
-
 ~~~~
 
 Example
