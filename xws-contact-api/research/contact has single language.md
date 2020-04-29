@@ -6,31 +6,28 @@ Users only need to be sent flood warning information in a single language for ea
 
 ## Method
 
-Analysis has been carried out on the current contact details in the Flood Warning System (FWS). We have examined how many individual contacts (defined as a single telephone number of email address) are registered in the system to receive warning information in more than one language (currently only English and Welsh are provided.) We have only looked at contacts which:
-
-* are still active in the system (as of 29 April 2020) 
-* have been fully registered - due to data anonymity, we cannot see individual contacts added via our opt-in service
+Analysis has been carried out on the current contact details in the Flood Warning System (FWS). We have examined how many individual contacts (defined as a single telephone number of email address) are registered in the system to receive warning information in more than one language (currently only English and Welsh are provided.) 
 
 ### Known limitations
 
-TBC
+We have only looked at fully registered contacts - due to data anonymity, we cannot see individual contacts added via our opt-in service. 
 
 ## Results
 
-After analysis we found only 63 individual contacts that are registered to multiple languages in the Flood Warning System. This represents 
+After analysis we found only 63 individual contacts that are registered to multiple languages in the Flood Warning System. This represents 0.005% of the total 1,229,331 unique fully registered contacts in the system.
 
 ## Benefits
 
-
-* TBC
+* A simpler data model in the system
+* Clear to the user what language they will receive warning information
 
 ## Issues
 
-* TBC
+* Some users may want to receive messages in multiple languages, by designing our system to only support a single language for each contact we limit the ability to meet this user need
 
 ## Recommendations
 
-TBC
+Based on the obsrved very low number of users wanting multiple languages, we suggest that only a single language is supported for each contact in XWS. We need to ensure that if the message is not sent in the supported language they choose, then we default to sending information in English.
 
 ## Supporting data
 
