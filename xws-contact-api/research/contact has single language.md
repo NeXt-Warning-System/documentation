@@ -2,24 +2,25 @@
 
 ## Hypothesis
 
-Users only need to be sent flood warning information in a single language for each contact in the system. This simplicity makes it clear for the user what langauge they will get their flood warning information in for that contact. The simplicity will also aid in providing a simmpe data model. 
+Users only need to be sent flood warning information in a single language for each contact in the system. This simplicity makes it clear for the user what language they will get their flood warning information in for that contact. The simplicity will also aid in providing a simple data model. 
 
 ## Method
 
-Analysis has been carried out on the current (as of April 2020) contact details in the Flood Warning System (FWS). We have examined how many individual contacts (defined as a single telephone number of email address) are registered in the system to receive wanring information in more than one language (currently only English and Welsh are provided.) We have onyl looked at contacts which:
+Analysis has been carried out on the current contact details in the Flood Warning System (FWS). We have examined how many individual contacts (defined as a single telephone number of email address) are registered in the system to receive warning information in more than one language (currently only English and Welsh are provided.) We have only looked at contacts which:
 
-* are still active in the system
-* have been fully registered - due to data annoymity, we cannot see individual contacts added via our opt-in service
-* 
+* are still active in the system (as of 29 April 2020) 
+* have been fully registered - due to data anonymity, we cannot see individual contacts added via our opt-in service
+
 ### Known limitations
 
 TBC
 
 ## Results
 
-After analysis we found only 63 individual contacts that are registered to multiple langauges in the Flood Warning System. this represents 
+After analysis we found only 63 individual contacts that are registered to multiple languages in the Flood Warning System. This represents 
 
 ## Benefits
+
 
 * TBC
 
