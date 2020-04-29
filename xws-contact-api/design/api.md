@@ -24,6 +24,9 @@ The below is an first draft of the API attributes for the XWS Contact API.
 -> UpdateReason - denotes reason for last contact update 
 -> CancelDate - denotes time and date contact was removed from the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard). Can be null.
 -> CancelReason - denotes reason for removal of contact 
+-> Locations - list of locations registered to the contact via a uniqueID
+  -> uniqueID
+    -> LocationType
 ~~~~
 
 Possible additions
@@ -47,6 +50,13 @@ Example
 -> 2017-08-09T13:58:07Z
 -> Online
 -> 2019-10-09T20:58:07Z
+-> Locations  
+  -> 10010228293
+    -> property
+  -> 063FWT23Barnes
+    -> ta
+  -> osgb4000000074564975
+    -> area
 ~~~~
 
 Example for EDW
@@ -63,4 +73,7 @@ Example for EDW
 -> 2017-08-09T13:58:07Z
 -> Auto-enrolled
 -> 2019-10-09T20:58:07Z
+-> Locations  
+  -> 063FWT23Barnes
+    -> ta
 ~~~~
