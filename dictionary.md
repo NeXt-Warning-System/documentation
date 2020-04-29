@@ -10,15 +10,14 @@
 | Name               | Description | 
 | -------------      |------------ |
 | Call               | A single attempt to reach a Contact with a Message. Can be via any ContactChannel |
+| CancelDate         | Denotes time and date contact was removed from the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard). Can be null.
+| CancelReason       | Denotes reason for Contact cancellation | 
 | Certainty          | The certainty associated with the Message - used in CAP |
 | Contact            | The email address, telephone number or http endpoint used to receive a Message |
-| ContactCancel      | Denotes reason for Contact cancellation | 
 | ContactChannel     | The channel type for the Contact i.e. email, text, telephone, XML |
 | ContactID          | Unique reference for each Contact registered - used in CAP |
 | ContactLanguage    | The language associated with each Contact. Must follow [ISO 639-1:2002](https://www.iso.org/standard/22109.html) i.e. en |
-| ContactReg         | Denotes meyhod of Contact registation |
 | ContactStatus      | Denotes if Contact is active or removed |
-| ContactUpdate      | Denotes reason for Contact update |
 | ContactUser        | Denotes user category of contact i.e. Public, Partner, Opt-out, Staff, System |
 | EventCategory      | Denotes the category of the Event i.e. Met - used in CAP. |
 | EventType          | The event type related to Category and Message i.e. Flood - used in CAP. Linked to EventCategory, Org(s) |
@@ -43,12 +42,16 @@
 | OrgTel             | Public facing telephone number for the organsiation using the service - used in CAP. Linked to Org|
 | OrgURL             | Public facing URL for the organsiation using the service - used in CAP. Linked to Org |
 | Permissions        | Set of access rights that allow interaction with different parts of the service |
+| RegisterDate       | Denotes time and date contact was added to the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard) |
+| RegisterMethod     | Denotes method of contact registration |
 | ResponseType       | Denotes the type of action required for the Event - used in CAP |
 | Severity           | The severity associated with the Message - used in CAP |
 | Staff              | The specific internal user accessing the internal service. Should be linked to Org(s), OrgTeam(s), EventType(s), Permission(s) |
 | TargetArea         | The area the MessageType will be sent to. Linked to OrgTeam. |
 | TargetAreaCategory | Denotes the category of the TargetArea. Controls the avaialable Message. Linked to EventType |
 | TargetAreaStatus   | Denotes the status of the TargetArea e.g. inactive, active, deactive |
+| UpdateDate         | Denotes time and date contact was last updated in the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard). Can be null. |
+| UpdateReason       | Denotes reason for last contact update |
 | Urgency            | The urgency associated with the MessageType - used in CAP |
 | User               | A user of the service e.g. citizen, professional partner |
 | ValidationCode     | A random code sent to the Contact via ContactChannel - used to validate access to Contact |
