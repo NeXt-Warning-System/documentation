@@ -10,7 +10,7 @@ Analysis has been carried out on the current contact details in the Flood Warnin
 
 ### Known limitations
 
-We have only looked at fully registered contacts - due to data anonymity, we cannot see individual contacts added via our opt-in service. 
+We have only looked at fully registered contacts - due to data anonymity, we cannot see individual contacts added via our opt-in service. However, all opt-in customers are only registered in English as we don't know their language preference.
 
 ## Results
 
