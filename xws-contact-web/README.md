@@ -24,3 +24,8 @@
 * English language choice only
 * Use the minimum required data to provide a warning service to our users
 
+## Policy implications
+
+* Lower proportion of registered properties - more "area" based registations
+* Potentially EDW users?
+
