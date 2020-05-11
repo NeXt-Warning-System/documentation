@@ -1,6 +1,6 @@
 # xws-contact-web
 
-## Objective
+## Objectives
 
 * Improve the user completion journey rates by providing a clear simple registration service
 * Remove the need for a user account number and password
