@@ -2,13 +2,13 @@
 
 ## Objective
 
-* Improve the user completion journey rates by providing a clear simple registation service
+* Improve the user completion journey rates by providing a clear simple registration service
 * Remove the need for a user account number and password
 * Stop incorrect contact details from being entered into the system be using a contact verification process
-* Remove duplicate accounts carried over from the incumbant system
+* Remove duplicate accounts carried over from the incumbent system
 * All users to register to receive warning information for "places" such as villages, towns and cities
-* Allow our opt-out users to cancel or upgrade their registations
-* Ultimately, create a simpler, quicker and faster registation, maintenance and cancellation process for our users
+* Allow our opt-out users to cancel or upgrade their registrations
+* Ultimately, create a simpler, quicker and faster registration, maintenance and cancellation process for our users
 
 ## Description of work
 
@@ -26,6 +26,6 @@
 
 ## Policy implications
 
-* Lower proportion of registered properties - more "area" based registations
+* Lower proportion of registered properties - more "area" based registrations
 * Potentially EDW users?
 
