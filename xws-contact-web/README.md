@@ -27,5 +27,5 @@
 ## Policy implications
 
 * Lower proportion of registered properties - more "area" based registrations
-* Potentially EDW users?
+* Potentially more EDW users?
 
