@@ -11,19 +11,20 @@
 * Improve the real time advice being added to warning messages
 * Reduce the risk of errant messages being issued
 * Allow for a duty officer defined CAP based messaging service in the future
-* Allow for support for multiple languages in the future
+* Allow for support for multiple languages via automated translation services in the future
 
- 
 
 ## Description of work
 
 TBC
 
-
 ### MVP
 
-* A simple, mobile ready step by step message sending experience
+* A simple, mobile friendly step by step message sending experience
+* Selection of real time information for editing 
+* Selection of real time advice for editing 
 * English only messages
+* Link for sending test messages via GOV.UK Notify - email and text
 
 ## Policy implications
 
