@@ -24,10 +24,10 @@ TBC
 
 * A simple, mobile ready step by step message sending experience
 * English only messages
-* 
-* 
 
 ## Policy implications
 
-* TBC
-
+* Support for multiple languages
+* Move email to simpler "hok and broadcast model" to match other channels
+* Move to variable advice per TA chosen by duty officer at point of issue
+* Use of headlines for short message of key messages to be used in CAP, FIS(?), API(?), Text(?), Email(?), Telephone (?) channels
