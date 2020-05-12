@@ -1,13 +1,17 @@
 # xws-core-engine
 
-## Objective
+## Objectives
 
+* TBC
 
 ## Description of work
 
+TBC
 
-## Constraints
+### MVP
 
+* TBC
 
-## Principles 
+## Policy implications
 
+* TBC

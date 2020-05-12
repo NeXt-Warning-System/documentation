@@ -4,7 +4,6 @@
 
 * Create a mobile friendly user experience for issuing warning messages
 * Speed up the time it takes to issue warnings via an intuitive journey
-* Allow for the semi-automation of messages and full automation of messages
 * Allows for messages to multiple Target Areas at once
 * Allow for a duty officer to schedule the "auto-refresh" of some warning messages types
 * Improve the real time information being added to warning messages

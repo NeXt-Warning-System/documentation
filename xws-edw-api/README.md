@@ -13,3 +13,7 @@ TBC
 * Must comply with the [GDS API technical and data standards](https://www.gov.uk/guidance/gds-api-technical-and-data-standards)
 * Must be JSON
 * Contacts can only be in the system once
+
+## Policy implications
+
+* TBC
