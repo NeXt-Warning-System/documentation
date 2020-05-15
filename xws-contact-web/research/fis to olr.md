@@ -6,8 +6,7 @@ By linking FIS and LTFRI to the "Get flood warnings" pages, we can enable users 
 
 ## Method
 
-Users on a TA specific FIS page could select "get flood warnings for this area" and be passed to the "Get flood warnings" pages with the specific TA code stored and used for the registation location. 
-
+Users on a TA specific FIS page could select "get flood warnings for this area" and be passed to the "Get flood warnings" pages with the specific TA code stored and used for the registration location. 
 
 
 ### Known limitations

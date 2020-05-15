@@ -38,7 +38,7 @@ Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed (Upda
 ## Benefits
 
 * This approach is simple for the user – most users are likely to know the area they want to know about. During contact first user testing, a majority of users selected a location over a specific property
-* This approach is futureproof – underlying changes to any TAs are automatically picked up. If we add a new TA, they automatically receive any flood warnings sent to it. If we remove a TA, they no longer receive that message. There is no maintenance for the user or for Organisation.
+* This approach is future proof – underlying changes to any TAs are automatically picked up. If we add a new TA, they automatically receive any flood warnings sent to it. If we remove a TA, they no longer receive that message. There is no maintenance for the user or for Organisation.
 * This approach is  quick for the user - they can sign up for one location and that’s it. They can of course sign up for multiple locations if they wish
 * If a user choses to register a property that cannot currently receive a flood warning service, we can match the address to available wider locations and suggest they sign up for one those areas instead
 
@@ -48,7 +48,7 @@ Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed (Upda
 * Some locations are not offered a flood warning service so we need to ensure that information is clearly presented to a user when they register
 * We have no control over the size of the bounding boxes - these are provided using OS data. If there is an error in the OS data this could propagate through our registration process
 * We would need to monitor if there are changes to the bounding box data provided by the OS. If they change the data and we choose to update our data in the system, we need to understand the impacts that the change of bounding box size would have on user registered to those areas
-* We need to understand the impact of users registering to bourdning boxes on the England/Wales border, especially if NRW choose not to use XWS in the future. There is a risk that a user signing up to a border location may not receive the full picture if NRW and EA use seperate systems
+* We need to understand the impact of users registering to bounding boxes on the England/Wales border, especially if NRW choose not to use XWS in the future. There is a risk that a user signing up to a border location may not receive the full picture if NRW and EA use separate systems
 
 ## Recommendations
 
