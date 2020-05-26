@@ -6,20 +6,21 @@ Users only need to be sent flood warning information in a single language for ea
 
 ## Method
 
-Analysis has been carried out on the current contact details in the Flood Warning System (FWS). We have examined how many individual contacts (defined as a single telephone number of email address) are registered in the system to receive warning information in more than one language (currently only English and Welsh are provided.) 
+Analysis has been carried out on the current contact details in the Flood Warning System (FWS). We have examined how many individual contacts (defined as a single telephone number or email address) are registered in the system to receive warning information in more than one language (currently only English and Welsh are provided.) 
 
 ### Known limitations
 
-We have only looked at fully registered contacts - due to data anonymity, we cannot see individual contacts added via our opt-in service. However, all opt-in customers are only registered in English as we don't know their language preference.
+We have only looked at fully registered contacts - due to data anonymity, we cannot see individual contacts added via our opt-in service. All opt-in customers are only registered in English as we don't know their language preference.
 
 ## Results
 
-After analysis we found only 63 individual contacts that are registered to multiple languages in the Flood Warning System. This represents 0.005% of the total 1,229,331 unique fully registered contacts in the system.
+After analysis we found only 63 individual contacts that are registered to multiple languages (English and Welsh) in the Flood Warning System. This represents 0.005% of the total 1,229,331 unique fully registered contacts in the system.
 
 ## Benefits
 
 * A simpler data model in the system
 * Clear to the user what language they will receive warning information
+* If a message is not available in the preferred language, we would supply the message in English by default
 
 ## Issues
 
