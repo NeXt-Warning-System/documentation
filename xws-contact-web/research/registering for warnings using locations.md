@@ -28,7 +28,10 @@ Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed ("Upd
   * 179 Remove Flood Alerts
   * 14 Flood Warnings
   * 14 Remove Flood Warnings
-* In some years, small locations (with small bounding boxes) received many messages - for example, Flamborough Village (YO15) in 2017 and 2018
+* In some years, small locations (with small bounding boxes) received many messages - for example, Flamborough Village (YO15) in 2017:
+  * 61 Flood Alerts
+  * 45 Update Flood Alerts
+  * 50 Remove Flood Alerts
 * Flood Alert and Update Flood Alert make up around 42% of all the messages issued between 01/2017 - 04/2020 inclusive
 * Remove messages make up around 44% of messages issued between 01/2017 - 04/2020 inclusive
 * If a user had only registered to receive Flood Warning and Severe Flood Warning messages (the default setting) between 2017 and 2020 for a single area, then the most amount of messages a user would have received in the period would have been for Todmorden Town, where we issued:
@@ -57,8 +60,8 @@ We would need to monitor if there are changes to the bounding box data provided 
 
 ## Supporting data
 
-* [Results of data analysis (Excel)](xws-contact-web\research\data\BB to TA Union remove.xlsx)
-* [Bounding box extents (Shapefile)](xws-contact-web\research\data\BB extents in England.zip)
+* [Results of data analysis (Excel)](xws-contact-web\research\data\BBtoTA.xlsx)
+* [Bounding box extents (Shapefile)](xws-contact-web\research\data\BBextentsinEngland.zip)
 
 ### Data sources
 
