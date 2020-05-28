@@ -60,8 +60,8 @@ We would need to monitor if there are changes to the bounding box data provided 
 
 ## Supporting data
 
-* [Results of data analysis (Excel)](xws-contact-web\research\data\BBtoTA.xlsx)
-* [Bounding box extents (Shapefile)](xws-contact-web\research\data\BBextentsinEngland.zip)
+* [Results of data analysis (Excel)](xws-contact-web\research\data\locations)
+* [Bounding box extents (Shapefile)](xws-contact-web\research\data\locations)
 
 ### Data sources
 
