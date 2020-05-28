@@ -14,23 +14,23 @@ Historic flood warning messages have been used to ascertain the number of messag
 
 ### Known limitations
 
-Any Target Areas that have been deactivate will not be matched to overlapping bounding boxes and therefore not appear in the results - this is due to the fact that it would be too laborious to accurately recreate this data. This method is designed to give a rough approximation of the number of messages a user may get if signing up to a location for flood warnings.
+Any Target Areas that have been deactivate will not be matched to overlapping bounding boxes and therefore not appear in the results - this is due to the fact that it would be too laborious to accurately recreate this data. This method is designed to give a rough approximation of the number of messages a user might get if signing up to a location for flood warnings.
 
 Any Target Areas issued by NRW that overlap with bounding boxes in England have not been included. This will mean the numbers will be (slightly) lower than reality for bounding boxes on the border.
 
 ## Results
 
-Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed (Update messages were introduced in 2017). The headline findings were:
+Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed ("Update" messages were introduced in 2017). The headline findings were:
 
-* London was the most frequently issued to location each year - this is the largest bounding box in the country In 2019 London messages issued were:
+* London was the most frequently issued to location each year - this is the largest bounding box in the country. In 2019 London messages issued were:
   * 208 Flood Alerts
   * 19 Update Flood Alerts
   * 179 Remove Flood Alerts
   * 14 Flood Warnings
   * 14 Remove Flood Warnings
-* In some years, even small locations (with small bounding boxes) receive many messages - for example, Flamborough Village (YO15) in 2017 and 2018
-* Flood Alert and Update Flood Alert make up around 42% of all the messages issued between 2017-04/2020 inclusive
-* Remove messages make up around 44% of messages issued between 2017-04/2020 inclusive
+* In some years, small locations (with small bounding boxes) received many messages - for example, Flamborough Village (YO15) in 2017 and 2018
+* Flood Alert and Update Flood Alert make up around 42% of all the messages issued between 01/2017 - 04/2020 inclusive
+* Remove messages make up around 44% of messages issued between 01/2017 - 04/2020 inclusive
 * If a user had only registered to receive Flood Warning and Severe Flood Warning messages (the default setting) between 2017 and 2020 for a single area, then the most amount of messages a user would have received in the period would have been for Todmorden Town, where we issued:
   * 62 Flood Warnings
   * 3 Update Flood Warnings
@@ -39,27 +39,26 @@ Data for the years 2017, 2018, 2019 and 2020 (to 20th April) were analysed (Upda
 
 * This approach is simple for the user – most users are likely to know the area they want to know about. During contact first user testing, a majority of users selected a location over a specific property
 * This approach is future proof – underlying changes to any TAs are automatically picked up. If we add a new TA, they automatically receive any flood warnings sent to it. If we remove a TA, they no longer receive that message. There is no maintenance for the user or for Organisation.
-* This approach is  quick for the user - they can sign up for one location and that’s it. They can of course sign up for multiple locations if they wish
-* If a user choses to register a property that cannot currently receive a flood warning service, we can match the address to available wider locations and suggest they sign up for one those areas instead
+* This approach is quicker for the user - they can sign up for one location and that’s it. They can of course sign up for multiple locations if they wish
+* If a user chooses to register a property that cannot currently receive a flood warning service, we can match the address to available wider locations and suggest they sign up for one those areas instead
 
 ## Issues
 
 * Moving to smaller flood warning areas in the future may increase the number of messages being sent to users registered to large geographical locations
 * Some locations are not offered a flood warning service so we need to ensure that information is clearly presented to a user when they register
-* We have no control over the size of the bounding boxes - these are provided using OS data. If there is an error in the OS data this could propagate through our registration process
-* We would need to monitor if there are changes to the bounding box data provided by the OS. If they change the data and we choose to update our data in the system, we need to understand the impacts that the change of bounding box size would have on user registered to those areas
+* We have no control over the size of the bounding boxes if we use data provided using OS data. If there is an error in the OS data this could propagate through our registration process
 * We need to understand the impact of users registering to bounding boxes on the England/Wales border, especially if NRW choose not to use XWS in the future. There is a risk that a user signing up to a border location may not receive the full picture if NRW and EA use separate systems
 
 ## Recommendations
 
 Using this data in the registration process would give the user an accurate number of messages they could potentially receive by signing up to a wider location. This is particular useful for areas where Flood Alerts are heavily issued. Providing this data would give users more visibility of the impacts of signing up for a wider location and the impact of opt-ing into optional messages.
 
-We need to ensure that we monitor changes to the underlying OS Names bounding box data.
+We would need to monitor if there are changes to the bounding box data provided by the OS. If they change the data and we choose to update our data in the system, we need to understand the impacts that the change of bounding box size would have on user registered to those areas.
 
 ## Supporting data
 
-* [Results of data analysis (Excel)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/evidence/data/BB%20to%20TA%20Union%20remove.xlsx?raw=true)
-* [Bounding box extents (Shapefile)](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/research/data/BB%20extents%20in%20Engalnd.zip?raw=true)
+* [Results of data analysis (Excel)](xws-contact-web\research\data\BB to TA Union remove.xlsx)
+* [Bounding box extents (Shapefile)](xws-contact-web\research\data\BB extents in England.zip)
 
 ### Data sources
 
