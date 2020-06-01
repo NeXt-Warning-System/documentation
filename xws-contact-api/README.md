@@ -1,7 +1,7 @@
 # xws-contact-api
 
 ## Objective
-* Create a simple API interface that can be used to register, update and remove contacts from XWS
+* Create a simple API interface that can be used to access, register, update and remove contacts from XWS
 * Allow for contact registration from multiple sources i.e. multiple online registration sites
 
 ## Description of work
