@@ -19,7 +19,7 @@ The below is the second draft of the API attributes for the XWS Contact API.
 -> registermethod - denotes method of contact registration
 -> locations - list of locations registered to the contact via a uniqueID
   -> uniqueid
-    -> Iid
+    -> id
     -> locationtype
     -> messages - Contact can have multiple messages. By default, all contacts have moderate, severe, extreme and info applied.
       -> remove
@@ -88,8 +88,8 @@ contactyype: opt-out
 registerdate: 2016-08-02T12:00:39
 registermethod: auto-enrolled
 locations:
-  uniqueID: 9b18d8ca0ab71fc5195f0b665a6f96ec
-  ID: 063FWT23Barnes
+  uniqueid: 9b18d8ca0ab71fc5195f0b665a6f96ec
+  id: 063FWT23Barnes
   locationtype: ta
   messages:
     moderate
