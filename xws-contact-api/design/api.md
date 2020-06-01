@@ -6,7 +6,7 @@ The below is the second draft of the API attributes for the XWS Contact API.
 
 -> contactid - a randomly assigned unique id. If contact removed and then re-added, new contactid generated  
 -> contact - the email address, telephone number or http endpoint used to receive a Message  
--> contactchannel - the channel types for the Contact. Contact can have multiple contactChannels such as text and telephone. Contact cannot have null  
+-> contactchannel - contact can have multiple contactchannels such as text and telephone. Contact cannot be null  
   -> email  
   -> text  
   -> telephone  
