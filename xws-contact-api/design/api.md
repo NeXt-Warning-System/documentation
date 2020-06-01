@@ -13,7 +13,7 @@ The below is the second draft of the API attributes for the XWS Contact API.
   -> XML  
 -> contactlanguage - Contact can only have one language  
 -> contactstatus - denotes if contact is active or removed  
--> contactyype - denotes user category of contact i.e. public, partner, opt-out, staff, system. Cannot by null and only one entry  
+-> contactype - denotes user category of contact i.e. public, partner, opt-out, staff, system. Cannot by null and only one entry  
 -> registerdate - denotes time and date contact was added to the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)  
 -> registermethod - denotes method of contact registration  
 -> locations - list of locations registered to the contact via a uniqueID  
@@ -49,7 +49,7 @@ contactchannel:
  telephone
 contactlanguage: en-GB
 contactstatus: active
-contactyype: public
+contactype: public
 registerdate: 2016-08-02T12:00:39
 registermethod: online
 locations:
@@ -83,7 +83,7 @@ contactchannel:
  telephone
 contactlanguage: en-GB
 contactstatus: active
-contactyype: opt-out
+contactype: opt-out
 registerdate: 2016-08-02T12:00:39
 registermethod: auto-enrolled
 locations:
