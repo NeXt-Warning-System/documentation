@@ -2,7 +2,7 @@
 
 ## Design
 
-The below is an first draft of the API attributes for the XWS Contact API.
+The below is the second draft of the API attributes for the XWS Contact API.
 
 ~~~~
 -> contactid - a randomly assigned unique id. If contact removed and then re-added, new contactid generated
@@ -21,7 +21,7 @@ The below is an first draft of the API attributes for the XWS Contact API.
   -> uniqueid
     -> Iid
     -> locationtype
-    -> messages - Contact can have non or multiple messages. By default, all contacts have moderate, severe, extreme and info applied
+    -> messages - Contact can have multiple messages. By default, all contacts have moderate, severe, extreme and info applied.
       -> remove
       -> minor
       -> moderate
