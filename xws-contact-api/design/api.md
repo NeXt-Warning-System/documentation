@@ -2,31 +2,31 @@
 
 ## Design
 
-The below is the second draft of the API attributes for the XWS Contact API.
+The below is the second draft of the API attributes for the XWS Contact API.  
 
--> contactid - a randomly assigned unique id. If contact removed and then re-added, new contactid generated
--> contact - the email address, telephone number or http endpoint used to receive a Message
--> contactchannel - the channel types for the Contact. Contact can have multiple contactChannels such as text and telephone. Contact cannot have null
-  -> email
-  -> text
-  -> telephone
-  -> XML
--> contactlanguage - Contact can only have one language
--> contactstatus - denotes if contact is active or removed
--> contactyype - denotes user category of contact i.e. Public, Partner, Opt-out, Staff, System. Cannot by null and only one entry
--> registerdate - denotes time and date contact was added to the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)
--> registermethod - denotes method of contact registration
--> locations - list of locations registered to the contact via a uniqueID
-  -> uniqueid
-    -> id
-    -> locationtype
-    -> messages - Contact can have multiple messages. By default, all contacts have moderate, severe, extreme and info applied.
-      -> remove
-      -> minor
-      -> moderate
-      -> severe
-      -> extreme
-      -> info
+-> contactid - a randomly assigned unique id. If contact removed and then re-added, new contactid generated  
+-> contact - the email address, telephone number or http endpoint used to receive a Message  
+-> contactchannel - the channel types for the Contact. Contact can have multiple contactChannels such as text and telephone. Contact cannot have null  
+  -> email  
+  -> text  
+  -> telephone  
+  -> XML  
+-> contactlanguage - Contact can only have one language  
+-> contactstatus - denotes if contact is active or removed  
+-> contactyype - denotes user category of contact i.e. Public, Partner, Opt-out, Staff, System. Cannot by null and only one entry  
+-> registerdate - denotes time and date contact was added to the system. Should be represented using [ISO 8601 standard](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard)  
+-> registermethod - denotes method of contact registration  
+-> locations - list of locations registered to the contact via a uniqueID  
+  -> uniqueid  
+    -> id  
+    -> locationtype  
+    -> messages - Contact can have multiple messages. By default, all contacts have moderate, severe, extreme and info applied  
+      -> remove  
+      -> minor  
+      -> moderate  
+      -> severe  
+      -> extreme  
+      -> info  
 
 Possible additions
 
