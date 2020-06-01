@@ -15,4 +15,5 @@ TBC
 * Must comply with the [GDS API technical and data standards](https://www.gov.uk/guidance/gds-api-technical-and-data-standards)
 * Must be JSON
 * Only one language supported for each contact
-* Contacts can only be in the system once
+* Active contacts can only be in the system once
+  * If a contact is  removed and then re-added, new contactid generated. This is preserve the history of the previous contact
