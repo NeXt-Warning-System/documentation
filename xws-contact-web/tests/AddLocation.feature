@@ -1,7 +1,7 @@
 Feature: Add location
 
     As a citizen that wants to register to get warnings
-    I need to tell the Environment Agency what location I want to get warnings for 
+    I need to tell the Organisation which location I want to get warnings for 
     So they can send me warning for my location of interest
 
     Happy path :)
