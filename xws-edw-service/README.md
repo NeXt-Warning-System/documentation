@@ -5,7 +5,7 @@
 
 ## Description of work
 
-![xws-edw-services steps](xws-edw-service/design/EDWprocess.png)
+![xws-edw-services steps](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-edw-service/design/EDWprocess.png)
 
 ## MVP
 
