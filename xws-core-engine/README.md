@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* Creating the link between the Message to the TargetArea(s) to the Location to the Contact to calculate who should receive the message
+* Creating the link between the Message (the what) to the TargetArea(s) (the where) to the Location (the who) to the Contact (the how) to calculate who should receive the message
 
 ## Description of work
 
