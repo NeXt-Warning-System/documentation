@@ -6,14 +6,17 @@
 
 ## Description of work
 
-TBC
+* The design of the core engine must focus on 3 central principles
+    * Accuracy - sending the right message to the right contact for the right area
+    * Speed - the engine must send messages quickly to the end user
+    * Efficiency - the engine must be efficient; removing duplicate messages before they are sent and prioritising messages by severity and urgency in real time
 
 ### MVP
 
 * Contacts that require message for particular TargetArea are calculated quickly and accurately
 * Duplicate Contacts are identifiable at the point of issue and removed
-* 
+* Messages are added to the sending queue in a prioritised order based on severity and urgency
 
 ## Policy implications
 
-* TBC
+* Agree prioritisation for each message type
