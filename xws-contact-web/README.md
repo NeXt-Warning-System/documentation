@@ -12,10 +12,16 @@
 
 ## Description of work
 
+### Design
+
+[Whimsical link](https://whimsical.com/MMVS4m8aLDFESJwiCoTB9w)
+
+### Flow
+
 ![xws-contact-web-steps](https://github.com/NeXt-Warning-System/documentation/blob/master/xws-contact-web/design/Contact%20first%20alpha%20v3.png)
 
 
-### MVP
+## MVP
 
 * Single channel (text) initially
 * UK telephone numbers only
