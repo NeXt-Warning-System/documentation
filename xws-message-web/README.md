@@ -12,12 +12,13 @@
 * Allow for a duty officer defined CAP based messaging service in the future
 * Allow for support for multiple languages via automated translation services in the future
 
-
 ## Description of work
 
-TBC
+### Design
 
-### MVP
+[Whimsical link](https://whimsical.com/7uyzCy9STzPP4BxayfvCJK)
+
+## MVP
 
 * A simple, mobile friendly step by step message sending experience
 * Selection of real time information for editing 
