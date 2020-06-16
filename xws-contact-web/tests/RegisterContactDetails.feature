@@ -29,7 +29,7 @@ Feature: RegisterContactDetails
         Then the 'RegistrationCode' is sent to '01904728765' via Automated telephone call
         And message displayed on Enter code screen displays '01904728765' as telephone number provided by user
 
-    #Users told us they wanted to register multiple contacts when they register. Can't see this reflected in the contact first prototype
+    # Users told us they wanted to register multiple contacts when they register. Can't see this reflected in the contact first prototype
 
     Scenario: Enter your code
         Given a 'RegistrationCode' has been entered into the 'RegistrationCode' field

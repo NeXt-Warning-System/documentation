@@ -33,5 +33,5 @@
 ## Policy implications
 
 * Lower proportion of registered properties - more "area" based registrations
-* Potentially more EDW users?
-
+* More GOV.UK Notify usage of texts for "code" entry
+* 
