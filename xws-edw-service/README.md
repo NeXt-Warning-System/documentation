@@ -1,6 +1,7 @@
 # xws-edw-service
 
 ## Objective
+
 * Providing a link between the core XWS application and the contacts provided by the telephony providers under our opt-in warning service, Extended Direct Warnings (EDW)
 
 ## Description of work
