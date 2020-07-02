@@ -15,4 +15,4 @@ TBC
 
 ## Policy implications
 
-* TBC
+* What messages do we allow for automation?
