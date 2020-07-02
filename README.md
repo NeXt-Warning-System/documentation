@@ -13,6 +13,7 @@
 * XWS will be designed to allow for configuration via a Admin UI for some key elements
 * XWS will be designed to scale automatically to adapt to increased usage
 * Any code created will be shared openly on GitHub
+* XWS will use and contribute to open standards, common components and patterns
 * Code will be documented to provide clear guidance on how to use it
 
 ## Alpha development areas <a name="alpha"></a>
