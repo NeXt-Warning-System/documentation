@@ -23,9 +23,15 @@
 | [xws-core-engine](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-core-engine) | 1        | Planning    | Creating the link between the Message to the TargetArea(s) to the Location to the Contact to calculate who should receive the message |
 | [xws-contact-web](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-contact-web) | 2        | In dev      | The webpage used by Users to register, maintain and cancel their Contact from the service |
 | [xws-message-web](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-web) | 3        | In dev      | The internal interface for selecting the Message, TargetArea, InfoAdvice and InfoDetail |
+| [xws-edw-service](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-edw-service) | TBC      | Planning    | Providing a link between the core XWS application and the contacts provided by the telephony providers under our opt-in warning service Extended Direct Warnings (EDW) | 
+
+
+### Other development areas
+
+| Name            | Priority              | Status  |   Description  |
+| -------------   | -------------         | ---     | ---            |
 | [xws-contact-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-contact-api) | TBC      | Not started | The API that is used in the xws-contact-web page. It allows Contact(s) to be linked with Location(s) an controls what optional messages are associated with each location |
 | [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api) | TBC      | Not started | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
-| [xws-edw-service](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-edw-service) | TBC      | Planning    | Providing a link between the core XWS application and the contacts provided by the telephony providers under our opt-in warning service Extended Direct Warnings (EDW) | 
 
 
 ## Data standards
