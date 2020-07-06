@@ -46,10 +46,10 @@
 | Principal local authorities in Wales        | GDS             | https://www.registers.service.gov.uk/registers/principal-local-authority |
 | Local authority type                        | GDS             | https://www.registers.service.gov.uk/registers/local-authority-type |
 | Government org names                        | GDS             | https://www.registers.service.gov.uk/registers/government-organisation |
-| Environment Agency Addressing Standard      | EA              | https://defra.sharepoint.com/sites/def-contentcloud/ |
-| Environment Agency Public Facing Area Names | EA              | https://defra.sharepoint.com/sites/def-contentcloud/ |
-| Environment Agency Flood Cause              | EA              | https://defra.sharepoint.com/sites/def-contentcloud/ |
-| Environment Agency Flood Source             | EA              | https://defra.sharepoint.com/sites/def-contentcloud/ |
+| Environment Agency Addressing Standard      | EA              | https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7B6b2271a5-3f33-47ed-990f-b8df6578d7ab%7D&action=default&mobileredirect=true |
+| Environment Agency Public Facing Area Names | EA              | https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7B46cbfc31-652b-49af-ae9a-c6deb4bb1cf9%7D&action=default&mobileredirect=true |
+| Environment Agency Flood Cause              | EA              | https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7Bd00699b9-d12d-4387-8779-5dd031411a95%7D&action=default&mobileredirect=true |
+| Environment Agency Flood Source             | EA              | https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7B50b33a45-5dcd-49b4-96ae-f5973c6f6e8d%7D&action=default&mobileredirect=true |
 
 
 ## Data sources
