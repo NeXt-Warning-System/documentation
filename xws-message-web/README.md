@@ -28,7 +28,6 @@
 
 ## Policy implications
 
-* Support for multiple languages
-* Move email to simpler "hook and broadcast model" to match other channels
-* Move to variable advice per TA chosen by duty officer at point of issue
-* Use of headlines for short message of key messages to be used in CAP, FIS (?), API (?), Text (?), Email (?), Telephone (?) channels
+* Do we need to provide support for multiple languages?
+* Do we move email to simpler "hook and broadcast model" to match other channels?
+* Should we use a "Headline" field for short message of key messages to be used in CAP, FIS(?), API(?), Text(?), Email(?), Telephone(?) channels
