@@ -34,12 +34,18 @@
 | [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api) | TBC      | Not started | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
 
 
-## Data standards
+## Data
+
+There are certain data standards and sources that we should be using in XWS. These are listed below.
+
+### Standards
 
 | Name                                        | Source          | Standard  | 
 | -------------                               |------------     |---------- |
 | Language                                    | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/language-tags |
 | Date-times and time-stamps                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard |
+| Exchange of locaiton point                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point |
+| Encoding characters                         | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile |
 | Country codes                               | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/country-codes |
 | Local authorities in England                | GDS             | https://www.registers.service.gov.uk/registers/local-authority-eng |
 | Local authorities in Scotland               | GDS             | https://www.registers.service.gov.uk/registers/local-authority-sct |
@@ -52,13 +58,9 @@
 | Environment Agency Flood Source             | EA              | https://defra.sharepoint.com/sites/def-contentcloud/ |
 
 
-## Data sources
+### Sources
 
 | Name           | Source                 | Filters  |
 | -------------  | ------------           | ------   |
-| Location       | OS Open Names          | Remove Scotland, filter to populatedPlace |
-| Addresses      | OS AddressBase Premium |          |
-
-
-
-
+| Location       | OS Open Names          | Remove Scotland and Wales, filter to populatedPlace |
+| Addresses      | OS AddressBase Premium | Remove Scotland and Wales |
