@@ -16,7 +16,7 @@
 * XWS will use and contribute to open standards, common components and patterns
 * Code will be documented to provide clear guidance on how to use it
 
-## Alpha development areas <a name="alpha"></a>
+## Alpha development areas
 
 | Name            | Priority              | Status  |   Description  |
 | -------------   | -------------         | ---     | ---            |
@@ -60,7 +60,7 @@ There are certain data standards and sources that we should be using in XWS. The
 
 ### Sources
 
-| Name           | Source                                                                                                      | Notes  |
+| Name           | Source                                                                                                      | Notes    |
 | -------------  | ------------                                                                                                | ------   |
 | Location       | [OS Open Names](https://www.ordnancesurvey.co.uk/business-government/products/open-map-names)               | Remove Scotland and Wales, filter to populatedPlace |
 | Addresses      | [OS AddressBase Premium](https://www.ordnancesurvey.co.uk/business-government/products/addressbase-premium) | Remove Scotland and Wales |
