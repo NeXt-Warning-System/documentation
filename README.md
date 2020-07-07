@@ -42,7 +42,7 @@ There are certain data standards and sources that we should be using in XWS. The
 
 | Name                                                                                                                                       | Source          | Notes  | 
 | -------------                                                                                                                              |------------     |------- |
-| [Language](https://www.gov.uk/government/publications/open-standards-for-government/language-tags)                                         | GDS             |        |
+| [Language tags](https://www.gov.uk/government/publications/open-standards-for-government/language-tags)                                    | GDS             |        |
 | [Date-times and time-stamps](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard) | GDS             |        |
 | [Exchange of location point](https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point)          | GDS             |        |
 | [Encoding characters](https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile)  | GDS             |        |
