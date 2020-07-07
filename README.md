@@ -40,9 +40,9 @@ There are certain data standards and sources that we should be using in XWS. The
 
 ### Standards
 
-| Name                                        | Source          | Standard  | 
-| -------------                               |------------     |---------- |
-| Language                                    | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/language-tags |
+| Name                                                                                                | Source          | Notes  | 
+| -------------                                                                                       |------------     |---------- |
+| [Language](https://www.gov.uk/government/publications/open-standards-for-government/language-tags)  | GDS             |  |
 | Date-times and time-stamps                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard |
 | Exchange of location point                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point |
 | Encoding characters                         | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile |
@@ -60,7 +60,7 @@ There are certain data standards and sources that we should be using in XWS. The
 
 ### Sources
 
-| Name           | Source                 | Filters  |
+| Name           | Source                 | Notes  |
 | -------------  | ------------           | ------   |
 | Location       | [OS Open Names](https://www.ordnancesurvey.co.uk/business-government/products/open-map-names) | Remove Scotland and Wales, filter to populatedPlace |
 | Addresses      | [OS AddressBase Premium](https://www.ordnancesurvey.co.uk/business-government/products/addressbase-premium) | Remove Scotland and Wales |
