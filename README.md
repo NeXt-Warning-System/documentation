@@ -34,12 +34,18 @@
 | [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api) | TBC      | Not started | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
 
 
-## Data standards
+## Data
 
-| Name                                        | Source          | Standard  | 
-| -------------                               |------------     |---------- |
-| Language                                    | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/language-tags |
-| Date-times and time-stamps                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard |
+There are certain data standards and sources that we should be using in XWS. These are listed below.
+
+### Standards
+
+| Name                                                                                                                                       | Source          | Notes  | 
+| -------------                                                                                                                              |------------     |---------- |
+| [Language](https://www.gov.uk/government/publications/open-standards-for-government/language-tags)                                         | GDS             |  |
+| [Date-times and time-stamps](https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard) | GDS             |  |
+| Exchange of location point                                                                                                                 | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point |
+| Encoding characters                         | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile |
 | Country codes                               | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/country-codes |
 | Local authorities in England                | GDS             | https://www.registers.service.gov.uk/registers/local-authority-eng |
 | Local authorities in Scotland               | GDS             | https://www.registers.service.gov.uk/registers/local-authority-sct |
@@ -52,13 +58,9 @@
 | Environment Agency Flood Source             | EA              | https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7B50b33a45-5dcd-49b4-96ae-f5973c6f6e8d%7D&action=default&mobileredirect=true |
 
 
-## Data sources
+### Sources
 
-| Name           | Source                 | Filters  |
+| Name           | Source                 | Notes  |
 | -------------  | ------------           | ------   |
-| Location       | OS Open Names          | Remove Scotland, filter to populatedPlace |
-| Addresses      | OS AddressBase Premium |          |
-
-
-
-
+| Location       | [OS Open Names](https://www.ordnancesurvey.co.uk/business-government/products/open-map-names) | Remove Scotland and Wales, filter to populatedPlace |
+| Addresses      | [OS AddressBase Premium](https://www.ordnancesurvey.co.uk/business-government/products/addressbase-premium) | Remove Scotland and Wales |
