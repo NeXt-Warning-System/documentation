@@ -62,5 +62,5 @@ There are certain data standards and sources that we should be using in XWS. The
 
 | Name           | Source                 | Filters  |
 | -------------  | ------------           | ------   |
-| Location       | OS Open Names          | Remove Scotland and Wales, filter to populatedPlace |
-| Addresses      | OS AddressBase Premium | Remove Scotland and Wales |
+| Location       | [OS Open Names](https://www.ordnancesurvey.co.uk/business-government/products/open-map-names) | Remove Scotland and Wales, filter to populatedPlace |
+| Addresses      | [OS AddressBase Premium](https://www.ordnancesurvey.co.uk/business-government/products/addressbase-premium) | Remove Scotland and Wales |
