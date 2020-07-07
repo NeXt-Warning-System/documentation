@@ -44,7 +44,7 @@ There are certain data standards and sources that we should be using in XWS. The
 | -------------                               |------------     |---------- |
 | Language                                    | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/language-tags |
 | Date-times and time-stamps                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/date-times-and-time-stamps-standard |
-| Exchange of locaiton point                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point |
+| Exchange of location point                  | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/exchange-of-location-point |
 | Encoding characters                         | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/cross-platform-character-encoding-profile |
 | Country codes                               | GDS             | https://www.gov.uk/government/publications/open-standards-for-government/country-codes |
 | Local authorities in England                | GDS             | https://www.registers.service.gov.uk/registers/local-authority-eng |
