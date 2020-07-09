@@ -1,5 +1,9 @@
 # xws-edw-service
 
+The idea is that data is provided to the EDW service to process before going to providers. Data gets processed, sent to providers and comes back to the EDW service for post processing. XWS/FWS would need to provide a few data sets to allow this to happen. 
+
+We have an opportunity to also use the EDW process to calculate key data sets for the flood service, without having to have large datasets within the system itself. 
+
 ## Objective
 
 * Providing a link between the core XWS application and the contacts provided by the telephony providers under our opt-in warning service, Extended Direct Warnings (EDW)
