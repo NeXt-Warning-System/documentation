@@ -28,10 +28,14 @@
 
 ### Other development areas
 
+There are also other development areas that need to be explored in Alpha. These additional areas will be vital for moving to Beta effectively. These development areas could be completed by contractors or by External Digital Services.
+
 | Name            | Priority              | Status  |   Description  |
 | -------------   | -------------         | ---     | ---            |
-| [xws-contact-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-contact-api) | TBC      | Not started | The API that is used in the xws-contact-web page. It allows Contact(s) to be linked with Location(s) an controls what optional messages are associated with each location |
-| [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api) | TBC      | Not started | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
+| [xws-contact-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-contact-api)             | TBC      | Not started | The API that is used in the xws-contact-web page. It allows Contact(s) to be linked with Location(s) an controls what optional messages are associated with each location |
+| [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api)             | TBC      | Not started | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
+| [xws-message-languages](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-languages) | TBC      | Not started | How we support multiple languages in the message content |
+| [xws-data-flows](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-data-flows)               | TBC      | Not started | Designing the necessary data flows and data sources between XWS and the various other systems |
 
 
 ## Data
