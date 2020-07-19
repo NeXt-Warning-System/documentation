@@ -36,6 +36,7 @@ There are also other development areas that need to be explored in Alpha. These 
 | [xws-message-api](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-api)             | TBC      | Not started | The API that triggers the sending of a message. This can include information collated during the xws-message-web input |
 | [xws-message-languages](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-languages) | TBC      | Not started | How we support multiple languages in the message content |
 | [xws-data-flows](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-data-flows)               | TBC      | Not started | Designing the necessary data flows and data sources between XWS and the various other systems |
+| [xws-message-ivr](https://github.com/NeXt-Warning-System/documentation/tree/master/xws-message-ivr)             | TBC      | Not started | Designing the Interactive Voice Response (IVR) system required for XWS |
 
 
 ## Data
