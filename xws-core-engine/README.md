@@ -25,5 +25,6 @@
 ## Policy implications
 
 * Agree prioritisation for each message type
+* Agree prioritisation on "high priority" TAs that are flagged (for flood this would be rapid respondning catchments)
 * Agree prioritisation for each channel type - it may be useful to issue XML messages to downtream systems as a priority as we point to those systems in other channels (i.e. email and text)
 
