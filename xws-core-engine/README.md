@@ -20,7 +20,7 @@
 * Control over "call per second" rate per channel. Current cps rates per channel are:
     * Email = TBC
     * Text = 16 cps
-    * Telephone = 99 cps (non MVP can be varied on telephone area code)
+    * Telephone = 50 cps (MVP inclues ability to vary cps by telephone 7-digit prefix)
 
 ## Policy implications
 
