@@ -35,7 +35,7 @@ Data standards are an essential tool in good data management. By defining, publi
 
 | Name                                                                                                                                       | Source          | Notes  | 
 | -------------                                                                                                                              |------------     |------- |
-| [Addressing Standard](https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7B6b2271a5-3f33-47ed-990f-b8df6578d7ab%7D&action=default&mobileredirect=true) | EA              |  |
+| [Addressing Standard](https://defra.sharepoint.com/:w:/r/sites/def-contentcloud/_layouts/15/Doc.aspx?sourcedoc=%7B6b2271a5-3f33-47ed-990f-b8df6578d7ab%7D&action=default&mobileredirect=true) | EA   |  |
 
 
 ## MVP
